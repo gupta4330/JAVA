@@ -1,7 +1,5 @@
-import java.util.*;
-class box
-{
-	double width,w;
+    class Box{
+    double width,w;
 	double height,h;
 	double depth,d;
 	void setDim()
@@ -20,12 +18,7 @@ class boxdemo
 	public static void main(String args[])
 	{
 double vol;
-Scanner s1 =new Scanner(System.in);
 	box b1 = new box();
-	System.out.println("Enter the values of Width, Height and Depth")
-	b1.width=s1.nextInt();
-	b1.height=s1.nextInt();
-	b1.depth=s1.nextInt();
 	
 	b1.width=2;
 	b1.height=3;
